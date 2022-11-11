@@ -4,7 +4,7 @@ pipeline {
        stage('Pulling GIT') {
              steps {
 		script {
-                  git branch: 'main', credentialsId: 'token', url: 'https://github.com/Oumayma-b/newapp.git'
+                  git branch: 'main', credentialsId: 'token', url: 'https://github.com/Oumayma-b/Lc.git'
             }
         }        
      }
