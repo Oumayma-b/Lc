@@ -10,7 +10,7 @@ pipeline {
      }
       
         
-        /*  stage('Build') 
+          stage('Build') 
         { 
         steps{ 
              script{
@@ -29,7 +29,7 @@ pipeline {
               sh "ansible-playbook ansible/docker.yml -i ansible/inventory/host.yml"
 
              }
-          } */
+          } 
         }
         
         
