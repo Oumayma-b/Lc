@@ -38,7 +38,7 @@ pipeline {
             }
         }
 	     
-	      stage('Docker') 
+	      stage('Docker-push') 
         { 
         steps{ 
              script{
