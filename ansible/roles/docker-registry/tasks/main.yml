@@ -1,9 +1,10 @@
 ---
 # tasks file for docker-registry
- - name: tag and push 
-   docker-image: 
+
+ - name: tag and push
+   docker_image:
       name: devops
       repository: oumaymab/devops
-      tag: latest 
-      push: yes 
+      tag: latest
+      push: yes
       source: local
